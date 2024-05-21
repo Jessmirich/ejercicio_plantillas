@@ -56,7 +56,7 @@ body, ul, li, p, a, label, input, div {
 .text-light { color: black !important;}
 .bg-dark { background-color: #e7c1d3 !important;}
 .bg-light { background-color: #e9eef5 !important;}
-.bg-black { background-color: #1d242d !important;}
+.bg-black { background-color: #e6e6e6 !important;}
 .bg-success { background-color: #59ab6e !important;}
 .btn-success {
   background-color: #d30896 !important;
@@ -189,3 +189,4 @@ body, ul, li, p, a, label, input, div {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
+
