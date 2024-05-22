@@ -3675,6 +3675,7 @@ fieldset:disabled .btn {
 .navbar > .container-xl,
 .navbar > .container-xxl {
   display: flex;
+  flex-direction: column;
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
@@ -4602,6 +4603,14 @@ fieldset:disabled .btn {
     margin-left: -1px;
     border-left-width: 1px;
   }
+  .nuevo-formato{
+    height: 192px;  
+  }
+  .cambio{
+    position: relative;
+    top: -103px;
+  }
+
 }
 @media (min-width: 1200px) {
   .list-group-horizontal-xl {
@@ -6603,7 +6612,7 @@ fieldset:disabled .btn {
   color: #212529 !important;
 }
 .text-white {
-  color: #fff !important;
+  color: #212529 !important;
 }
 .text-body {
   color: #212529 !important;
@@ -6727,7 +6736,7 @@ fieldset:disabled .btn {
   border-radius: 0.3rem !important;
 }
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 0% !important;
 }
 .rounded-pill {
   border-radius: 50rem !important;
@@ -9315,5 +9324,24 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+.logo{
+  width: 300px;
+  height: 300px;
+}
+
+.logo1{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -20px;
+}
+
+.mover{
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+  top: -90px;
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
