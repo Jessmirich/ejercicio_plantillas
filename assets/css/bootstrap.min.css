@@ -9344,4 +9344,10 @@ fieldset:disabled .btn {
   position: relative;
   top: -90px;
 }
+
+.imagen-centro{
+  width: 250px;
+  height: 250px;
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */
